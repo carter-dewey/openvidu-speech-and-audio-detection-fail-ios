@@ -3,7 +3,7 @@ IOnic hello world to demonstrate that audio/speech events do not fire on iOS
 
 This is the exact same as the OpenVidu Ionic Hello World documented here: https://openvidu.io/docs/tutorials/openvidu-ionic/
 
-To demonstrating that soeech/audio detection on iOS does not fire I have added the following lines to app.component.ts.
+To demonstrating that speech/audio detection on iOS does not fire I have added the following lines to app.component.ts.
 
 Sppech detection lines 108-114
 ```javascript

@@ -165,10 +165,6 @@ export class AppComponent implements OnDestroy {
             });
         });
 
-        publisher.on('streamAudioVolumeChange', (event) => {
-            console.log('Publisher audio volume change from ' + event.value.oldValue + ' to' + event.value.newValue);
-        });
-
         // --- 6) Publish your stream ---
 
         this.session.publish(publisher).then(() => {
